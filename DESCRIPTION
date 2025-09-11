@@ -1,0 +1,25 @@
+Package: ivolcano
+Title: Interactive Volcano Plot
+Version: 0.0.1
+Authors@R: c(
+       person("Guangchuang", "Yu", 
+              email = "guangchuangyu@gmail.com", 
+              role = c("aut", "cre", "cph"), 
+              comment = c(ORCID = "0000-0002-6485-8781")
+       )
+    )
+Description: Generate interactive volcano plots for exploring gene expression data. Built with 'ggplot2', the plots are rendered interactive using 'ggiraph', enabling users to hover over points to display detailed information or click to trigger custom actions.  
+Depends: R (>= 4.1.0)
+Imports: dplyr, ggplot2, ggiraph, ggrepel, rlang
+Suggests: quarto, yulab.utils
+VignetteBuilder: quarto
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2025-09-09 06:56:20 UTC; HUAWEI
+Author: Guangchuang Yu [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-6485-8781>)
+Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
+Repository: CRAN
+Date/Publication: 2025-09-11 09:20:07 UTC
