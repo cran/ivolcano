@@ -109,7 +109,8 @@ p3 <- ivolcano(df,
         logFC_col="log2FoldChange",
         pval_col="padj",
         gene_col="symbol",
-        size_by = "negLogP")
+        size_by = "negLogP",
+        interactive = FALSE)
 
 print(p3)
 
@@ -127,7 +128,8 @@ p4 <- ivolcano(df,
         pval_cutoff2 = 0.01,
         logFC_cutoff = 1,
         logFC_cutoff2 = 2,
-        size_by = "manual")
+        size_by = "manual",
+        interactive = FALSE)
 
 print(p4)
 
@@ -149,6 +151,7 @@ p5 <- ivolcano(df_limma,
         logFC_cutoff = 1,
         logFC_cutoff2 = 2,
         gene_col = "X")
+
 print(p5)
 
 
@@ -174,7 +177,8 @@ p6 <- ivolcano(df_limma,
         logFC_cutoff = 1,
         logFC_cutoff2 = 2,
         gene_col = "X",
-        filter = 'X %in% genes')
+        filter = 'X %in% genes',
+        interactive = FALSE)
 print(p6)
 
 
@@ -192,7 +196,8 @@ p7 <- ivolcano(df_limma,
         logFC_cutoff = 1,
         logFC_cutoff2 = 2,
         gene_col = "X",
-        filter = 'logFC > 8')
+        filter = 'logFC > 8',
+        interactive = FALSE)
         
 print(p7)
 
